@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F2BA46</color>
+    <color name="colorPrimaryDark">#7E7E7E</color>
+    <color name="colorAccent">#F2BA46</color>
+    <color name="dark_orange">#CF6E1F</color>
+    <color name="light_gray">#7E7E7E</color>
+    <color name="light_dark">#535353</color>
+
+
+    <color name="blue">#3B5999</color>
+    <color name="color_green_light">#99D468</color>
+    <color name="red">#ff1919</color>
+    <color name="text_black_dark">#424242</color>
+    <color name="text_black_light">#2e2e2e</color>
+    <color name="black_dark">#393939</color>
+    <color name="black_light">#b6b6b6</color>
+    <color name="gray">#4C4C4C</color>
+    <color name="gray_cal">#CCD0D8</color>
+    <color name="black">#000000</color>
+    <color name="view">#9C9C9C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_semi">#F2F2F2</color>
+    <color name="white_">#F3F3F3</color>
+    <color name="white_semi_">#FAFAFA</color>
+    <color name="cream">#F4F4F4</color>
+    <color name="hint_color">#C0C0C0</color>
+    <color name="border_color">#e4e8e7</color>
+    <color name="floating_gray">#e2e2e2</color>
+    <color name="transparentBlack20">#20000000</color>
+    <color name="transparentBlack60">#60000000</color>
+    <color name="transparentBlack80">#80000000</color>
+    <color name="transparentBlack90">#90000000</color>
+    <color name="transparentBlack99">#D8000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="statusBar">#E6E6E6</color>
+    <color name="bg_swipe_item_neutral">@android:color/transparent</color>
+</resources>

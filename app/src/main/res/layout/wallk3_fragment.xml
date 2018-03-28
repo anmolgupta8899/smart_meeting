@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_30">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_250"
+            android:layout_marginTop="@dimen/dp_20"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_24"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="Get meeting details and takeaways. Automatically."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/white"
+            android:text="We process recordings from all memebers and get you the most important details."/>
+    </LinearLayout>
+</LinearLayout>

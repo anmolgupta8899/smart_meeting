@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical"
+    tools:context="com.mobilecoderz.smartmeeting.activity.OnBoardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <FrameLayout
+            android:id="@+id/flParent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vpIntroduction"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginRight="@dimen/dp_30"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_orange"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_10"
+            android:text="@string/sign_up"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_8"
+            android:background="@drawable/transparent_rectangular_shape"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_10"
+            android:text="@string/log_in"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivIndicatorFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circular_gray_shape" />
+
+            <ImageView
+                android:id="@+id/ivIndicatorSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circular_gray_shape" />
+
+            <ImageView
+                android:id="@+id/ivIndicatorThird"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circular_gray_shape" />
+
+            <ImageView
+                android:id="@+id/ivIndicatorForth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circular_gray_shape" />
+
+            <ImageView
+                android:id="@+id/ivIndicatorFifth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circular_gray_shape" />
+
+            <ImageView
+                android:id="@+id/ivIndicatorSixth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circular_gray_shape" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
